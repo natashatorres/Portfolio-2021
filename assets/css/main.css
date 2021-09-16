@@ -2273,19 +2273,6 @@ input, select, textarea {
 				margin: 0 0 0.4em 0;
 			}
 
-
-			#top {
-				text-align: center;
-				padding: 5em 0;
-			}
-
-				#top .image {
-					margin: 0 auto 0 auto;
-					width: 20em;
-					height: 8em;
-				}
-
-
 			h1 {
 				font-size: 2.25em;
 				line-height: 1.25em;
@@ -2439,8 +2426,8 @@ input, select, textarea {
 			}
 
 				#top .image {
-					width: 35em;
-					height: 13em;
+					width: 30em;
+					height: 10em;
 					margin-bottom: 0;
 				}
 
