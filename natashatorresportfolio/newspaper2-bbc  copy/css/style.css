@@ -1,0 +1,347 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+     height:50px;
+     background-color: black;
+} 
+
+header > #logo{
+     float:left;
+     height:80%;
+     margin-left:2%;
+     margin-top: .5%;
+     padding-right: .5%;
+     border-right:1px solid white;
+}
+
+a{
+     text-decoration: none;
+}
+
+header .signin{
+     height:60%;
+     margin-top:1%;
+     padding-left:1%;
+     float:left;
+}
+
+nav{
+     width: 80%;
+     float:left;
+}
+
+
+
+ul li {
+     display: inline-block;
+}
+
+ul li a{
+     color:white;
+     text-decoration: none;
+     font-size: 1rem;
+     font-weight: 100;
+     padding-left:20px;
+     padding-right:20px;
+     border-right: 1px solid white;
+    
+}
+
+li form{
+     margin-left: 5%;
+   
+   }
+   
+li input{
+     color:grey;
+     padding-right: 20%;
+   
+   }
+
+
+#main{
+     height:600px;
+     background-color: rgb(231 232 226);
+}
+
+#main > h2{
+     color: rgb(74,74, 78);
+     font-size: 1rem;
+     font-weight: 500;
+     width:46%;
+}
+
+#welcomenote{
+     padding-left: 2%;
+     margin-bottom: 0;;
+     float:left;
+}
+
+#date{
+     text-align: right;
+     margin-bottom: 0;
+     padding-right: 1%;
+     float:right;
+}
+
+#cheeto{
+     height:500px;
+     Width:45%;
+     float:left;
+     margin: 0 2%;
+     background-image: url("trumppointing.jpeg");
+     background-size: cover;
+     background-repeat:none;
+     background-color: rgb(140, 110, 110);
+}
+
+#cheeto{
+     color:white;
+}
+
+#hidden {
+     height:500px;
+     width: 50%;
+     float:left;
+     color:white;
+}
+
+#hidden h2{
+     margin-left:2%;
+     padding-top:35%;
+}
+
+
+.trumpbillboard{
+     width: 50%;
+     height: 50%;
+     float:left;
+     background-image: url("trumpcompromising.jpeg");
+     background-color: black;
+     background-size: cover;
+     background-repeat:no-repeat;
+}
+
+.chapel {
+     width: 50%;
+     height: 50%;
+     float:left;
+     background-image: url("trumpreaction.jpeg");
+     background-color: black;
+     background-size: cover;
+     background-repeat:no-repeat;
+}
+
+.whiteman{
+     width: 50%;
+     height: 50%;
+     float:left;
+     background-image: url(oxford.jpeg);
+     background-color: black;
+     background-size: cover;
+     background-repeat:no-repeat;
+}
+
+.inoffice{
+     width: 50%;
+     height: 50%;
+     float:left;
+     background-image: url("openoffices.jpeg");
+     background-color: black;
+     background-size: cover;
+     background-repeat:no-repeat;
+}
+
+#mainnews > h1 {
+     color: rgb(74, 74,74);
+     font-size: 30px;
+     border-left:4px solid red;
+     padding-left:1%;
+     margin-left:1%;
+
+}
+
+#mainnews section{
+     height:200px;
+     width: 30%;
+     float: left;
+     margin:1.5%;
+}
+
+#sc1{
+     background-image: url("sc1.png");
+     background-size: 100%;
+     background-repeat:no-repeat;
+     background-color: black;
+
+}
+
+
+#sc2{
+     background-image: url("sc2.png");
+     background-repeat:no-repeat;
+     background-size:100%;
+     background-color: black;
+
+
+}
+#sc3{
+     background-image: url("sc3.png");
+     background-size: 100%;
+     background-repeat:no-repeat;
+     background-color: black;
+
+
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*phone */
+
+@media screen and (max-width:600px){
+
+
+     header span{
+          display:none;
+     }
+
+    
+
+     #date{
+          display:none;
+     }
+
+     #welcomenote{
+          font-size:.5rem;
+          width: 100%;
+     }
+
+     #cheeto{
+          width: 100%;
+          margin:0;
+     }
+
+     #hidden{
+          display: none;
+     }
+     
+     .hide{
+       display:none;
+     }
+
+     nav{
+          width: 10%;
+     }
+
+     nav li a{
+          display: inline;
+          width: 10%;
+          padding:10%;
+     }
+
+     .signin{
+          display:none;
+     }
+
+     .hide2{
+          display: none;
+     }
+     #mainnews section{
+          width:100%;
+     }
+       
+}
+
+/*tablet*/
+
+@media (min-width:601px) and (max-width: 1024px){
+
+
+     header .signin{
+          display:none;
+     }
+
+     #cheeto{
+          width:100%;
+          margin:0;
+     }
+
+     
+     #hidden{
+          width: 100%;
+     }
+
+     #mainnews section{
+          width: 100%;
+          margin:0;
+     }
+     .hide2{
+          display:none;
+     }
+}
+
+
+/*desktops*/
+@media (min-width:1536px) and (max-width: 2560px){
+
+     #cheeto{
+          width: 100%;
+     }
+
+     #hidden{
+          width:100%;
+     }
+    
+
+}

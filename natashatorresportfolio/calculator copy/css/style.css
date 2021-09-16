@@ -1,0 +1,104 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: rgb(8 42 68);
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-position:left top;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  font-size: 50px;
+  color:white;
+}
+
+form{
+  text-align:center;
+}
+
+input{
+  width:150px;
+  border-radius: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  border:2px solid rgb(202 111 117);
+}
+
+section{
+  width:310px;
+  margin:auto;
+  padding-top:1%;
+  padding-bottom: 1%;
+  
+}
+
+#add{
+  color:white;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  background-color: rgb(249 229 133);
+  border:none;
+  border-radius: 10%;
+  width:150px;
+  height:150px;
+}
+
+#subtract{
+  color:white;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  background-color: rgb(202 111 117);
+  border:none;
+  border-radius:10%;
+  width:150px;
+  height:150px;
+}
+
+#divide{
+  color:white;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  background-color: rgb(83 174 175);
+  border:none;
+  border-radius:10%;
+  width:150px;
+  height:150px;
+}
+
+#multiply{
+  color:white;
+  font-family: 'Yanone Kaffeesatz', Arial;
+  background-color: rgb(61 126 218);  
+  border: none;
+  border-radius:10%;
+  width:150px;
+  height:150px;
+}
+
+h2{
+  color:rgb(61 126 218);
+  font-family: 'Yanone Kaffeesatz', Arial;
+  background-color:white;
+  margin:auto;
+  text-align: center;
+  width:300px;
+  border:2px solid rgb(202 111 117);
+
+
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

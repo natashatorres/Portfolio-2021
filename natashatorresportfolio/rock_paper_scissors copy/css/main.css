@@ -1,0 +1,122 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+body{
+    background-color:rgb(249 216 89);
+}
+ #border{
+    border: 4px dotted black;
+    width:fit-content;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color:white;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 100;
+    font-family:'Bebas Neue', Arial, Helvetica, sans-serif ;
+}
+
+p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#scoreboardtitle{
+    font-family: 'ZCOOL KuaiLe', Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+
+.scoreboard{
+    font-family: 'ZCOOL KuaiLe', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top:2%;
+    height:150px;
+    width:100%;
+    padding-left: 40%;
+}
+
+
+
+
+
+#humanScore{
+    font-size:100px;
+    text-align: center;
+    border: 1px solid black;
+  
+}
+#computerScore{
+    font-size:100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family:'Bebas Neue', Arial, Helvetica, sans-serif ;
+}
+
+#buttons{
+    width: auto;
+    margin-left: 10%;
+    padding-bottom: 2%;
+  
+}
+
+#rock{
+    font-size: 20px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color: rgb(249 216 89);
+    border:none;
+    border-radius: 10%;
+    width:200px;  
+    height:50px;
+}
+
+#paper{
+    font-size:20px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color: rgb(249 216 89);
+    border:none;
+    border-radius: 10%;
+    width:200px;  
+    height:50px;
+}
+
+#scissors{
+    font-size:20px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color: rgb(249 216 89);
+    border:none;
+    border-radius: 10%;
+    width:200px;  
+    height:50px;
+}
+
+#status{
+    font-family: 'ZCOOL KuaiLe', Arial, Helvetica, sans-serif;
+    margin-top:2%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+}

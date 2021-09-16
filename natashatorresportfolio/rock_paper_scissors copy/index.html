@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is where your description goes">
+  <meta name="keywords" content="one, two, three">
+
+	<title>Parchment, Stone, or Blade</title>
+
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section id="border">
+<h1>Rock, Paper, or Scissors?</h1>
+
+<p>A bot has challenged you to a game. <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>.</p>
+<h2 id="scoreboardtitle">Scoreboard</h2>
+<div class="scoreboard">
+
+  <table id="mainTable">
+    <tbody>
+      <tr>
+        <td id="humanScore">0</td>
+        <td id="computerScore">0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>You</th>
+        <th>Bot</th>
+      </tr>
+    </tfoot> 
+  </table>
+
+</div>
+
+<h2>Choose Wisely</h2>
+
+<section id="buttons">
+<button id="rock">Rock</button>
+
+<button id="paper">Paper</button>
+
+<button id="scissors">Scissors</button>
+</section>
+
+<div id="status"></div>
+</section>
+<script type="text/javascript" src="js/main.js"> </script>
+
+</body>
+
+</html>

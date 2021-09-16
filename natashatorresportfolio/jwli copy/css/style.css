@@ -1,0 +1,631 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+  height: 50px;
+}
+header ul{
+  float:left; 
+  width: 75%;
+}
+
+header li{
+  display:inline;
+  width:100%;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 4%;
+}
+
+header li a{
+  text-decoration: none;
+  color: rgb(142 139 144);
+}
+
+header button{
+  float:left;
+  color:white;
+  padding-left:4%;
+  padding-right:4%;
+  padding-top:.5%;
+  padding-bottom: .5%;
+  background-color: rgb(52 57 65);
+  margin-top: .5%;
+  margin-left: 9%;
+  border: none;
+}
+
+
+#main{
+  width: 100%;
+  height:400px;
+  background-color: rgb(241 243 245);
+}
+
+
+#main > .logo{
+  width:20%;
+  margin-left: 15%;
+}
+
+#main h1{
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right:0;
+  width: 40%;
+}
+
+#main p{
+  font-size: 1rem;
+  margin-left: 5%;
+  margin-right: 0;
+  width: 40%;
+}
+
+#main .hide{
+  font-size: .8rem;
+  margin-top: 4%;
+  margin-right: 0;
+  width: 40;
+}
+
+#main form{
+  margin-left: 5%;
+
+}
+
+#main input{
+  color:grey;
+  padding-right: 10%;
+
+}
+
+#main button{
+  color:white;
+  background-color:rgb(186 197 206);
+  padding-left:4%;
+  padding-right:4%; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: none;
+  border-radius: 4%;
+
+}
+
+
+#main .background{
+    width: 25%;
+    float:right;
+    margin-top: -25%;
+    margin-bottom:-10%;
+    clear:both;
+}
+
+#mission{
+  height:300px;
+  width: 100%;
+}
+
+
+#mission h1{
+  text-align: center;
+  font-size: 2rem;
+  margin: 4%;
+}
+
+.strong p{
+  width: 40%;
+  margin-left: 5%;
+  text-align: center;
+  font-size: 1rem;
+  float:left;
+}
+
+strong{
+  border-top:2px solid pink;
+}
+
+
+#founded{
+  color:grey;
+  width: 80%;
+  float:left;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 10%;
+  float:left;
+}
+
+#history{
+  height:600px;
+  width: 100%;
+  background-color: rgb(241 243 245);
+}
+
+#history .hide{
+  width: 60%;
+  height:700px;
+  float:left;
+}
+
+#history h2{
+  font-size: 2em;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-top:0;
+  padding-top:2%;
+  margin-bottom: 1%;
+  float:left;
+
+}
+#history p{
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 2%;
+  padding-right: 6%;
+  float:left;
+}
+
+
+#history .photos{
+  width: 40%;
+  height: 600px;
+  float:left;
+
+}
+
+.photos img{
+  align-items: center;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 15%;
+  margin-top: 5%;
+  float:left;
+}
+
+.photos span{
+  color: darkgrey;
+  font-size: .5rem;
+  text-align: center;
+  width: 25%;
+  float:left;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+#whoweare{
+  height:900px;
+  width: 100%;
+  float:left;
+
+}
+
+#whoweare h2{
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-top:0;
+  padding-top:2%;
+  margin-bottom: 1%;
+  float:left;
+}
+
+#atusko{
+  width: 90%;
+  height: 560px;
+  margin-left: 5%;
+  float:left;
+  border: 1px solid lightgrey;
+}
+
+#atusko img{
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float:left;
+ 
+}
+
+#atusko h3{
+  margin-left: 2%;
+  margin-top: 2%;
+  float:left;
+
+}
+
+#atusko p{
+  width: 60%;
+  height: 500px;
+  margin-left: 2%;
+  margin-top: 2%;
+  float:left;
+
+}
+
+#whoweare .hide{
+  width: 42%;
+  height:300px;
+  margin-left: 6%;
+  float:left;
+}
+
+#whoweare .hide h3{
+  color:lightgrey;
+  padding-bottom: 3%;
+
+}
+
+#newsletter{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(171 180 190);
+  float:left;
+
+}
+
+#newsletter p{
+  width: 50%;
+  height: 100px;
+  margin:0;
+  float:left;
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 10%;
+  padding-top: 2%;
+
+}
+
+
+#newsletter form{
+  width: 50%;
+  height: 100px;
+  padding-top: 2%;
+  margin: 0;
+  float:left;
+
+}
+
+#newsletter input{
+  color:grey;
+  padding-right:20%;
+  padding-top:1%;
+  padding-bottom: 1%;
+}
+
+#newletter button{
+  color:white;
+  background-color:rgb(186 197 206);
+  padding-left:4%;
+  padding-right:4%; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: none;
+  border-radius: 4%;
+}
+
+footer{
+  width: 100%;
+  height: 300px;
+  float:left;
+  background-color: rgb(145 156 162);
+}
+footer #copyright{
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 10%;
+  height: 40px;
+  color:white;
+  border-bottom: 1px solid white;
+}
+#copyright a{
+  text-decoration: none;
+  color:white;
+  padding-left: 5%;
+
+}
+
+footer #bottomnav{
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  
+}
+
+footer #bottomnav ul{
+  list-style: none;
+  width: 15%;
+  float:left
+}
+
+li a{
+  text-decoration: none;
+  list-style: none;
+  color:white; 
+
+}
+
+footer #bottomnav{
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  padding-left: 0;
+  
+}
+
+li a{
+  text-decoration: none;
+  list-style: none;
+  color:white; 
+
+
+}
+
+footer span a{
+  color:white;
+  text-decoration: none;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*phone */
+
+@media screen and (max-width:600px){
+
+ .hide{
+   display: none;
+ }
+  
+  #nav a{
+   font-size: .8rem;
+  }
+
+  #main .logo{
+    margin-left: 40%;
+
+  }
+
+  #main h1{
+    margin-left: 30%;
+    text-align: center;
+  }
+
+  #main p{
+    margin-left:30%;
+    text-align: center;
+  }
+
+  #main form{
+    margin-left: 30%;
+  }
+
+ 
+
+  .background{
+    display:none;
+  }
+
+  #history{
+    display: none;
+  }
+
+  #whoweare{
+    width: 100%;
+    height: 15%;
+  }
+
+  #atusko{
+    height:40%;
+    margin-right:40%;
+  }
+
+  #whoweare img{
+    width:30%;
+    margin-left: 35%;
+  }
+
+  #whoweare h3{
+    margin-left: 15%;
+    width: 100%;
+  }
+  #whoweare p{
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+    font-size: .5rem;
+  }
+
+  #newsletter{
+    display: none;
+  }
+  
+  footer{
+    font-size: .5rem;
+    height:20%;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  #bottomnav{
+  
+    display: none;
+  }
+
+  .hide3{
+    display: none;
+  }
+
+}
+
+
+
+
+/*tablet*/
+
+@media (min-width:601px) and (max-width: 1024px){
+
+  header button{
+    display: none;
+  }
+
+  #nav a{
+    font-size: .6rem;
+   }
+
+   #main .logo{
+     margin-left: 40%;
+
+   }
+
+   #main h1{
+     margin-left: 30%;
+     text-align: center;
+   }
+
+   #main p{
+     margin-left:30%;
+     text-align: center;
+   }
+
+   #main form{
+     margin-left: 30%;
+   }
+
+   .background{
+     display: none;
+   }
+
+  #history h2{
+    width: 100%;
+    margin-left: 70%;
+  }
+
+  #history p{
+    margin:0 40%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .photos{
+    display: none;
+  }
+
+  section #whoweare{
+    height:10%;
+  }
+ 
+  #atusko{
+    height:50%;
+    margin-right:40%;
+  }
+
+  #whoweare img{
+    width:20%;
+    margin-left: 15%;
+  }
+
+  #whoweare h3{
+    margin-left: 15%;
+  }
+  #whoweare p{
+    font-size: .6rem;
+    text-align: center;
+  }
+
+  #whoweare .hide p{
+    font-size: 1rem;
+  }
+  footer{
+    height:100px;
+  }
+  .hide3{
+    display: none;
+  }
+
+  #bottomnav{
+    display: none;
+  }
+
+
+
+}
+
+/*
+bigger screens*/
+@media (min-width:1536px) and (max-width: 2560px){
+
+  #history p{
+    font-size: 1.2rem;
+  }
+
+  #whoweare p{
+    font-size: 1.1rem;
+  }
+  #main .logo{
+    margin-left: 40%;
+
+  }
+
+  #main h1{
+    margin-left: 30%;
+    text-align: center;
+  }
+
+  #main p{
+    margin-left:30%;
+    text-align: center;
+  }
+
+  #main form{
+    margin-left: 30%;
+  }
+
+  .background{
+    display: none;
+  }
+  #main .hide{
+    display: none;
+  }
+  #newsletter{
+    display: none;
+  }
+
+}
